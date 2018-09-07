@@ -1,4 +1,4 @@
-#Sieve of Eratosthenes
+# Sieve of Eratosthenes
 
 * This algortihm is efficient way to find all prime nummbers to given limit 
 * complexity of the algorithm is O(n(logn)(loglogn)) bit operations
