@@ -14,8 +14,6 @@ for(int i=2;i<=n;++i)
 	prime[i]=1;
 
 
-
-
 	for(int p=2;p*p<=n;++p)
 
 {
@@ -29,20 +27,16 @@ for(int i=2;i<=n;++i)
 	        }
 	}
 }
-unsigned long long int temp=0;
 for(int p=2;p<=n;++p)
 {
 	if(prime[p])
-	temp+=p;
+	printf("%d ",p);
 }
-printf("%llu",temp);
 
 }
 
 int main()
 {
-int n=2000000;
+int n=20;//find all the primes to n
 SieveOfEratoshenes(n);
-
-
 }
